@@ -1,2 +1,2 @@
-# youtube-ads-blocker
-Youtube ads blocker
+# Youtube ads blocker userscript
+Simple youtube ads blocking user script 
