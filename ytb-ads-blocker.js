@@ -50,10 +50,10 @@ class AdBlocker {
     this.hideOrRemoveElement(document.getElementsByTagName('ytd-reel-shelf-renderer')[0], 'remove');
   }
 
-  start() {
+  init() {
     setInterval(() => this.removeAds(), 100);
   }
 }
 
 const adBlocker = new AdBlocker();
-adBlocker.start();
+adBlocker.init();
